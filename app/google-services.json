@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "400117231334",
+    "firebase_url": "https://kachrawalaasmartappforsmartcit.firebaseio.com",
+    "project_id": "kachrawalaasmartappforsmartcit",
+    "storage_bucket": "kachrawalaasmartappforsmartcit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400117231334:android:8cf296efd4398229",
+        "android_client_info": {
+          "package_name": "com.algolnx.kachrawala_asmartappforsmartcity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400117231334-c3ehcjrevosn528jve3onrkv65qqmgq9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.algolnx.kachrawala_asmartappforsmartcity",
+            "certificate_hash": "1831bc88fdcc28bec59b75fdb46700e0d6ce3dfe"
+          }
+        },
+        {
+          "client_id": "400117231334-2u7mo7uo6prq34h3pn3m5hqivkoptuph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiBlS3-dEWdAzzEZfZA-0toXkSaLpkfeY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400117231334-2u7mo7uo6prq34h3pn3m5hqivkoptuph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

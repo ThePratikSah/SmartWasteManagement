@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.algolnx.kachrawala.Home">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_awesome_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"/>
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_awesome_toolbar"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+        <TextView
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:fontFamily="sans-serif-condensed"
+            android:textAlignment="center"
+            android:text="@string/upload_image_of_dumped_garbage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/uploadImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_cloud_upload_black_24dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackgroundBorderless" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_image" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/RecentUploadLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/buttonLayout"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:textStyle="bold"
+            android:padding="4sp"
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/recent_upload" />
+        <ImageView
+            android:id="@+id/recentUpload"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/capture_upload" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">KachraWala</string>
+    <string name="sign_out">Sign out</string>
+    <string name="upload">upload</string>
+    <string name="phone_number">Phone number</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="request_otp">Request otp</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="share_app">Share App</string>
+    <string name="guide">Recycle Guide</string>
+    <string name="logout">Logout</string>
+    <string name="capture_upload"><![CDATA[Capture & upload]]></string>
+    <string name="profile">Profile</string>
+    <string name="recent_upload">Recent upload</string>
+    <string name="upload_image_of_dumped_garbage">Upload image of dumped garbage</string>
+    <string name="profile_image">Profile image</string>
+    <string name="log_out">Log Out</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="feedback">Feedback</string>
+    <string name="item_name">Item name</string>
+    <string name="choose_your_location">Choose your location</string>
+    <string name="approx_weight_of_mass">Approx weight of mass</string>
+    <string name="request_pickup">Request pickup</string>
+    <string name="emergency">Emergency</string>
+    <string name="graph">Graph</string>
+    <string name="name">Name</string>
+    <string name="aadhaar_number">Aadhaar Number</string>
+    <string name="get_otp">Get otp</string>
+    <string name="register_volunteer">Register Volunteer</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.algolnx.kachrawala.RegisterVolunteer">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_awesome_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_below="@+id/my_awesome_toolbar"
+        android:id="@+id/Name"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/AadharNumner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/Name"
+        android:layout_marginTop="31dp"
+        android:hint="@string/aadhaar_number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonOTP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/AadharNumner"
+        android:layout_marginTop="29dp"
+        android:text="@string/get_otp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:id="@+id/enterOtp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/register"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="33dp"
+        android:hint="@string/enter_otp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/enterOtp"
+        android:layout_marginBottom="53dp"
+        android:text="@string/register_volunteer" />
+
+</RelativeLayout>
